@@ -357,7 +357,7 @@ def stemWord(word):
 
 typ=[]
 msg=[]
-s = list(map(lambda x:x.strip('\n'),open('Assignment_2_data.txt','r').readlines()))
+s = list(map(lambda x:x.strip('\n'),open('spam_classifier_data.txt','r').readlines()))
 for i in range(5574):
   if(s[i][0]=='h'):
     typ.append("ham")
