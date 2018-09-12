@@ -1,0 +1,1 @@
+A multilayer neural network to classify messages as spam or not-spam, porter-stemming is applied, used sigmoid and hyperbolic tangent as the activation functions, used softmax function for probabilistic outputs.
